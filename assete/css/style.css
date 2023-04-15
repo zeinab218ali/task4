@@ -45,16 +45,12 @@ body {
     gap: 30px;
 }
 
-.nav1 .right .links div img {
-    width: 10.21px;
-    color: #938C8C;
-    /* line-height: 20px; */
-}
+.nav1 .right .links div  .fa , .fa-chevron-up:hover , .fa-chevron-down:hover {
 
-.nav1 .right .links div .img2 {
-    margin-left: -7px;
-}
-
+    color: black;
+    transform: rotate(180deg);
+    
+    }
 .nav1 .right .links a {
     text-decoration: none;
     font-weight: 500;
